@@ -5,7 +5,7 @@ use strict;
 
 =head1 NAME
 
-ODE - The great new ODE!
+ODE - Perl Bindings to the C physics library ODE
 
 =head1 VERSION
 
@@ -18,39 +18,9 @@ our $VERSION = '0.01';
 
 =head1 SYNOPSIS
 
-Quick summary of what the module does.
-
-Perhaps a little code snippet.
-
-    use ODE;
-
-    my $foo = ODE->new();
-    ...
-
-=head1 EXPORT
-
-A list of functions that can be exported.  You can delete this section
-if you don't export anything, such as for a purely object-oriented module.
-
-=head1 SUBROUTINES/METHODS
-
-=head2 function1
-
-=cut
-
-sub function1 {
-}
-
-=head2 function2
-
-=cut
-
-sub function2 {
-}
-
 =head1 AUTHOR
 
-Kartik Thakore, C<< <thakore.kartik at gmail.com> >>
+Kartik Thakore, C<< <thakore.kartik at cpan.org> >>
 
 =head1 BUGS
 
@@ -70,7 +40,21 @@ You can find documentation for this module with the perldoc command.
 
 You can also look for information at:
 
-=over 4
+=over 5
+
+=item * SDL Perl Community 
+
+=over 2
+
+=item * Mailing List
+
+C<sdl-devel at perl.org>
+
+=item * IRC channel
+
+C<#sdl irc.perl.org>
+
+=back
 
 =item * RT: CPAN's request tracker
 
